@@ -1,0 +1,15 @@
+/** dataset.json */
+{
+  "key": "myfirstchat",
+  "messages": [
+    {
+      "text": "Hello, World!",
+      "user": "akless"
+    },
+    {
+      "text": "My second message.",
+      "user": "akless"
+    }
+  ]
+}
+
