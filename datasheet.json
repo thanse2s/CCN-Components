@@ -1,0 +1,214 @@
+/* QuizKomponent */
+{
+  "Zahlen-RheienFolge":
+    {
+      "key": "Zahlen-RheienFolge",
+      "title": "Rheien ergänzen",
+      "dicription": "Ergänze die Folgenen Rheien",
+      "questions":
+              [
+                {
+                  "text": "2,4,6,...",
+                  "answer":
+                          [
+                          ],
+                  "input":"number",
+                  "correct":[8]
+                },
+
+                {
+                  "text": "1,2,5,6,7,...",
+                  "answer":
+                  [
+                  ],
+                  "input":"number",
+                  "correct":[10]
+                },
+
+                {
+                  "text": "1,1,2,3,5,8,...",
+                  "answer":
+                  [
+                  ],
+                  "input":"number",
+                  "correct":[12]
+                }
+              ]
+    },
+
+  "Unpassendes-Wort":
+  {
+    "key":"Unpassendes-Wort",
+    "title": "Welches Wort passt nicht hier rein"
+    "dicription":"Finde das Falsche Wort"
+    "questions":
+            [
+              {
+                "text": "1 .Frage",
+                "answers":
+                [
+                  "Flughafen",
+                  "Flugzeug",
+                  "Bahnhof",
+                  "Hafen",
+                  "Haltestelle"
+                ],
+                "input":"radio",
+                "correct":1
+              },
+
+              {
+                "text": "2 .Frage",
+                "answers":
+                [
+                  "Zug",
+                  "Bus",
+                  "Flugzeug",
+                  "Schiff",
+                  "Konsulat"
+                ],
+                "input":"radio",
+                "correct":4
+              },
+
+              {
+                "text": "3 .Frage",
+                "answers":
+                [
+                  "trampen",
+                  "fahren",
+                  "reisen",
+                  "besorgen",
+                  "fliegen"
+                ],
+                "input":"radio",
+                "correct":3
+              },
+
+              {
+                "text": "4 .Frage",
+                "answers":
+                [
+                  "Straße",
+                  "Allee",
+                  "Park",
+                  "Platz",
+                  "Weg"
+                ],
+                "input":"radio",
+                "correct":2
+              },
+
+              {
+                "text": "5 .Frage",
+                "answers":
+                [
+                  "Schloss",
+                  "Fernsehturm",
+                  "Univserität",
+                  "Museum",
+                  "Taxi"
+                ],
+                "input":"radio",
+                "correct":4
+              },
+
+              {
+                "text": "6 .Frage",
+                "answers":
+                [
+                  "Mittag",
+                  "Abend",
+                  "Dienstag",
+                  "Nacht",
+                  "Morgen"
+                ],
+                "input":"radio",
+                "correct":2
+              },
+
+              {
+                "text": "7 .Frage",
+                "answers":
+                [
+                  "vorgestern",
+                  "früh",
+                  "heute",
+                  "gestern",
+                  "übermorgen"
+                ],
+                "input":"radio",
+                "correct":1
+              },
+
+              {
+                "text": "8 .Frage",
+                "answers":
+                [
+                  "Geburtstag",
+                  "Hochzeit",
+                  "Schulanfang",
+                  "Taufe",
+                  "Oktober"
+                ],
+                "input":"radio",
+                "correct":4
+              }
+            ]
+  },
+  "Räumliches-Denken":
+  {
+    "key":"Räumliches-Denken",
+    "title": "Räumliches-Denken",
+    "discription": "Würfel zusammen setzen",
+    "questions":
+    [
+      {
+        "text": "1 Würfel",
+        "answer":
+        [
+        ],
+        "input":"number",
+        "correct":[8]
+      },
+
+      {
+        "text": "2 Würfel",
+        "answer":
+        [
+        ],
+        "input":"number",
+        "correct":[8]
+      },
+
+      {
+        "text": "3 Würfel",
+        "answer":
+        [
+        ],
+        "input":"number",
+        "correct":[8]
+      },
+
+      {
+        "text": "4 Würfel",
+        "answer":
+        [
+        ],
+        "input":"number",
+        "correct":[8]
+      },
+
+      {
+        "text": "5 Würfel",
+        "answer":
+        [
+        ],
+        "input":"number",
+        "correct":[8]
+      }
+
+    ]
+  }
+
+}
