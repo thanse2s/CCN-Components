@@ -1,0 +1,95 @@
+{
+  "id-test":
+          [
+            {
+              "tag":"div",
+              "class":"timer"
+            },
+            {
+              "tag": "div",
+              "class": "title"
+            },
+            {
+              "tag":"div",
+              "class":"description"
+            },
+            {
+              "tag":"div",
+              "tag":"current_question"
+            }
+          ],
+
+          "question": {
+            "tag": "div",
+            "class": "Questions-Body",
+            "inner": [
+              {
+                "tag": "div",
+                "innter": [
+                  {
+                    "tag": "span",
+                    "innter": "%question%"
+                  },
+                  "%nr%"
+                ]
+              },
+              {
+                "tag": "span",
+                "inner": "%text%"
+              },
+              {
+                "tag":"form",
+                "onsubmit":"%onsubmit%",
+                "inner":
+              [
+                {
+                  "tag": "div",
+                  "class": "answers"
+                },
+                {
+                  "tag": "div",
+                  "class": "button",
+                  "inner": {
+                    "tag": "ipunt",
+                    "type": "submit",
+                    "value": "%caption%"
+                  }
+                }
+              ]
+              }
+            ]
+          },
+
+          "answer":
+          {
+            "tag":"div",
+            "class":"answer",
+            "inner":
+                    [
+                      {
+                        "tag":"div",
+                        "inner":
+                                [
+                                  {
+                                    "tag":"div",
+                                    "class":"imput"
+                                  },
+                                  {
+                                    "tag":"div",
+                                    "class":"text",
+                                    "inner":
+                                            {
+                                              "tag": "label",
+                                              "inner":"%text%",
+                                              "for":"%id"
+                                            }
+                                  }
+                                ]
+                      },
+                      {
+                        "tag":"div",
+                        "class":"commit"
+                      }
+                    ]
+          }
+}
